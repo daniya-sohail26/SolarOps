@@ -27,18 +27,30 @@ export const tokensDark = {
     800: "#080b12",
     900: "#040509",
   },
+  // secondary: {
+  //   50: "#f0f0f0",
+  //   100: "#f8dcdb",
+  //   200: "#f1b9b7",
+  //   300: "#e99592",
+  //   400: "#e2726e",
+  //   500: "#db4f4a",
+  //   600: "#af3f3b",
+  //   700: "#832f2c",
+  //   800: "#58201e",
+  //   900: "#2c100f",
+  // },
   secondary: {
-    50: "#f0f0f0",
-    100: "#f8dcdb",
-    200: "#f1b9b7",
-    300: "#e99592",
-    400: "#e2726e",
-    500: "#db4f4a",
-    600: "#af3f3b",
-    700: "#832f2c",
-    800: "#58201e",
-    900: "#2c100f",
+    100: "#fff5cc",  // light yellow
+    200: "#ffe599",  // soft yellow
+    300: "#ffd966",  // yellow-orange
+    400: "#ffbf33",  // bright orange
+    500: "#ffa500",  // orange
+    600: "#cc8400",  // darker orange
+    700: "#996300",  // dark orange
+    800: "#664200",  // deep orange-brown
+    900: "#332100",  // very dark orange-brown
   },
+  
 };
 
 // function that reverses the color palette
