@@ -4,7 +4,7 @@ import { service1, service2, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
-  Gradient,
+  // Gradient,
   VideoBar,
   VideoChatMessage,
 } from "./design/Services";
@@ -16,8 +16,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Maximizing Solar Power Efficiency"
+          text="Optimize grid placement and boost energy output with intelligent insights from SolarOps"
         />
 
         <div className="relative">
@@ -33,9 +33,9 @@ const Services = () => {
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4">Power Generation Prediction</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Accurate solar power predictions to optimize energy production.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -66,10 +66,10 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                <h4 className="h4 mb-4">Heatmap</h4>
+                <p className="body-2 mb-[3rem] text-n-2">
+                  Identify the best installation spots with real-time solar
+                  performance heatmaps.&apos;
                 </p>
               </div>
 
@@ -78,10 +78,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Fault detection</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  Real-time fault detection to ensure continuous solar
+                  performance.
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -123,7 +123,7 @@ const Services = () => {
             </div>
           </div>
 
-          <Gradient />
+          {/* <Gradient /> */}
         </div>
       </div>
     </Section>
